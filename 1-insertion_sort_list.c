@@ -10,13 +10,11 @@ void insertion_sort_list(listint_t **list)
 	listint_t *current;
 	listint_t *node;
 
-	current = *list;
-
 	if (list == NULL || (*list)->next == NULL || !(*list))
 		return;
 
-	current = current->next;
-	while (current)
+	current = (*list)->next;
+	while (current != NULL)
 	{
 		if (current->prev != NULL)
 		{
