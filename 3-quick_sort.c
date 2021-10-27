@@ -6,7 +6,7 @@
  * @min: first postion
  * @max: last
  * Return: index
- */)
+ */
 int partition(int *array, int min, int max, size_t size)
 {
 	int pivot = array[max];
