@@ -27,4 +27,6 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quick_recursion(int *array, size_t min, size_t max, size_t size);
 int partition(int *array, int min, int max, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+int hoare_partition(int *array, int min, int max, size_t size);
 #endif
